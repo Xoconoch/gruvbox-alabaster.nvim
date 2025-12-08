@@ -4,7 +4,10 @@ Alabaster Color Scheme
 A color scheme with minimal amount of highlighting for neovim.
 
 ## Motivation
-(from the original [sublime text theme](https://github.com/tonsky/sublime-scheme-alabaster))
+I really like the philosophy behind this colorscheme, but I am (unfortunately)
+a gruvbox enjoyer. If you want to read more about what the fuck is this, see
+this blog post: [I am sorry, but everyone is getting syntax highlighting
+wrong](https://tonsky.me/blog/syntax-highlighting/)
 
 Most color schemes highlight everything they can, ending up looking like a fireworks show.
 
@@ -57,39 +60,6 @@ Two config options are provided:
 - [p00f/nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
 - [mizlan/iswap.nvim](https://github.com/mizlan/iswap.nvim): use `ISwapSnipe` for `hl_snipe` and `ISwapGrey` for `hl_grey`
 - [kristijanhusak/vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)
-
-## Screenshots
-
-Rust
-![rust-dark](https://user-images.githubusercontent.com/36493671/151688511-c5d31f0d-80e7-4bee-a148-0171a608e5f2.png)
-![rust-light](https://user-images.githubusercontent.com/36493671/196017694-35155cb4-aabf-4a21-a6ec-83bab6b620a8.png)
-
-Telescope
-![telescope-dark](https://user-images.githubusercontent.com/36493671/151688522-c2d3a5d9-f97f-4eba-9b28-f562eebd2491.png)
-![telescope-light](https://user-images.githubusercontent.com/36493671/196017714-75c15a62-c918-4199-89b1-3f092fb3b483.png)
-
-Neogit (also shows `DiffAdd` and `DiffDelete` highlight groups)
-![swappy-20220130-112712](https://user-images.githubusercontent.com/36493671/151688542-657660cc-5478-4341-9ee1-553977e45408.png)
-
-diffview.nvim (also shows `DiffChange` and `DiffText` highlight groups)
-![swappy-20220130-112534](https://user-images.githubusercontent.com/36493671/151688555-cdfd45c6-4e9e-48fe-bb0c-3c5191de9906.png)
-
-C++
-![cpp-dark](https://user-images.githubusercontent.com/36493671/151689029-32c664ac-5514-46cf-9326-70b208849e5c.png)
-![cpp-light](https://user-images.githubusercontent.com/36493671/196017922-e6c5546b-5fc1-43e0-9d60-8cb07f07bfc6.png)
-
-Fennel
-![fennel-dark](https://user-images.githubusercontent.com/36493671/151689036-56eb672d-f3ec-4784-aa62-582be472310d.png)
-![fennel-light](https://user-images.githubusercontent.com/36493671/196017739-1dafb70d-1474-48fb-a019-b64a25e8b946.png)
-
-Clojure (same code and font as the one on the original ST theme's README for comparison)
-(blue and magenta are switched in the original screenshot, the current ST theme matches this one)
-![image](https://user-images.githubusercontent.com/36493671/159711835-cf18d1c4-6940-414a-830b-a7096268b014.png)
-
-Help
-![help-dark](https://user-images.githubusercontent.com/36493671/151689040-8eeeabdd-2aaa-418c-a3ab-8a7e09596abc.png)
-![help-light](https://user-images.githubusercontent.com/36493671/196017663-966f361e-1548-4ab0-b8b7-6801d7dc3e30.png)
-
 
 
 ## Alabaster dark for other tools

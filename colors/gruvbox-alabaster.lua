@@ -21,7 +21,7 @@ if vim.o.background == "dark" then
 	vim.g.terminal_color_9 = "#cc241d"
 	vim.g.terminal_color_10 = "#8ec07c"
 	vim.g.terminal_color_11 = "#fabd2f"
-	vim.g.terminal_color_12 = "#7fa2ac"
+	vim.g.terminal_color_12 = "#83a598"
 	vim.g.terminal_color_13 = "#b16286"
 	vim.g.terminal_color_14 = "#458588"
 	vim.g.terminal_color_15 = "#ebdbb2"
@@ -29,8 +29,8 @@ if vim.o.background == "dark" then
 	-- colors
 	local bg = "#282828"
 	local fg = "#ebdbb2"
-	local punct_fg = "#708b8d"
-	local def_fg = "#7fa2ac"
+	local punct_fg = "#ebdbb2"
+	local def_fg = "#83a598"
 	local const_fg = "#b16286"
 	local active = "#eebd35"
 	local string_fg = "#8ec07c"
@@ -47,11 +47,11 @@ if vim.o.background == "dark" then
 	}
 	local error = "#cc241d"
 	local warn = "#f4b371"
-	local hint = "#7fa2ac"
+	local hint = "#83a598"
 	local info = "#8ec07c"
 	local ansi = {
 		black = "#504945",
-		blue = "#7fa2ac",
+		blue = "#83a598",
 		brightyellow = "#fabd2f",
 		cyan = "#458588",
 		green = "#8ec07c",
@@ -82,11 +82,11 @@ if vim.o.background == "dark" then
 		DiffDelete = { bg = "#504945", fg = "#f85149" },
 		DiffText = { fg = "#504945", bg = "#fff987" },
 		DiffChange = { bg = "#504945", fg = "#e3b341" },
-		EndOfBuffer = { fg = "#354c50" },
+		EndOfBuffer = { fg = "#504945" },
 		-- TermCursor   { }, -- cursor in a focused terminal
 		TermCursorNC = { fg = bg, bg = fg },
 		ErrorMsg = { fg = error, bg = mistake.bg },
-		VertSplit = { fg = "#2b3d40" },
+		VertSplit = { fg = "#504945" },
 		Folded = { bg = "#504945", fg = "#83a598" },
 		FoldColumn = { bg = bg, fg = "#504945" },
 		SignColumn = {},
@@ -105,12 +105,12 @@ if vim.o.background == "dark" then
 		-- NormalNC     { }, -- normal text in non-current windows
 		FloatBorder = floatborder,
 		Pmenu = { bg = pmenu_bg },
-		PmenuSel = { bg = "#354c50" },
-		PmenuSbar = { bg = "#212f31" },
+		PmenuSel = { bg = "#504945" },
+		PmenuSbar = { bg = "#504945" },
 		PmenuThumb = { bg = "#47666b" },
 		Question = { fg = diffadd },
 		QuickFixLine = { bg = "#504945" },
-		Search = { bg = "#354c50" },
+		Search = { bg = "#504945" },
 		SpecialKey = { fg = ansi.cyan },
 		SpellBad = { undercurl = 1, sp = ansi.red },
 		SpellCap = { undercurl = 1, sp = ansi.blue },
@@ -416,7 +416,7 @@ else
 	vim.g.terminal_color_9 = "#fb4934"
 	vim.g.terminal_color_10 = "#8ec07c"
 	vim.g.terminal_color_11 = "#eebd35"
-	vim.g.terminal_color_12 = "#7fa2ac"
+	vim.g.terminal_color_12 = "#83a598"
 	vim.g.terminal_color_13 = "#b16286"
 	vim.g.terminal_color_14 = "#458588"
 	vim.g.terminal_color_15 = "#ebdbb2"
@@ -428,7 +428,7 @@ else
 	local def_fg = "#458588"
 	local const_fg = "#7a3e9d"
 	local active = "#eebd35"
-	local active_blue = "#7fa2ac"
+	local active_blue = "#83a598"
 	local string_fg = "#448c27"
 	local darker_fg = "#83a598"
 	local diffadd = "#284918"
@@ -468,7 +468,7 @@ else
 		Comment = { fg = comment_fg },
 		ColorColumn = { bg = "#E2EEEE" },
 		Conceal = { fg = "#dedede" },
-		Cursor = { bg = "#7fa2ac", fg = "#bfdbfe" },
+		Cursor = { bg = "#83a598", fg = "#bfdbfe" },
 		-- lCursor      { }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
 		-- CursorIM     { }, -- like Cursor, but used when in IME mode |CursorIM|
 		CursorColumn = { bg = "#E2EEEE" },
