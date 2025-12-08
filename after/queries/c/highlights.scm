@@ -2,33 +2,33 @@
 ;; extends
 
 (function_declarator
-  declarator: (identifier) @AlabasterDefinition)
+  declarator: (identifier) @GruvboxAlabasterDefinition)
 (preproc_function_def
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 
 (type_definition
   type: (struct_specifier
-          name: (type_identifier) @AlabasterDefinition)
-  declarator: (type_identifier) @AlabasterDefinition)
+          name: (type_identifier) @GruvboxAlabasterDefinition)
+  declarator: (type_identifier) @GruvboxAlabasterDefinition)
 
 (type_definition
   type: (struct_specifier)
-  declarator: (type_identifier) @AlabasterDefinition)
+  declarator: (type_identifier) @GruvboxAlabasterDefinition)
 
 (type_definition
   type: (enum_specifier)
-  declarator: (type_identifier) @AlabasterDefinition)
+  declarator: (type_identifier) @GruvboxAlabasterDefinition)
 
 (struct_specifier
-  name: (type_identifier) @AlabasterDefinition)
+  name: (type_identifier) @GruvboxAlabasterDefinition)
 
 (declaration
   type: (struct_specifier
-          name: (type_identifier) @AlabasterBase))
+          name: (type_identifier) @GruvboxAlabasterBase))
 
 (enum_specifier
-    name: (type_identifier) @AlabasterDefinition)
+    name: (type_identifier) @GruvboxAlabasterDefinition)
 
 (declaration
   type: (enum_specifier
-          name: (type_identifier) @AlabasterBase))
+          name: (type_identifier) @GruvboxAlabasterBase))

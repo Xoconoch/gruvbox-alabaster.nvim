@@ -2,12 +2,12 @@
 ;; extends
 
 (function_definition
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 (class_definition
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 
-((module . (comment) @AlabasterHashbang)
- (#match? @AlabasterHashbang "^#!/"))
+((module . (comment) @GruvboxAlabasterHashbang)
+ (#match? @GruvboxAlabasterHashbang "^#!/"))
 
 (decorator
-  (identifier) @AlabasterBase)
+  (identifier) @GruvboxAlabasterBase)

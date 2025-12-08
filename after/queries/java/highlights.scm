@@ -2,10 +2,10 @@
 ;; extends
 
 (class_declaration
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 (constructor_declaration
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 (method_declaration
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 (package_declaration
-  (scoped_identifier) @AlabasterDefinition)
+  (scoped_identifier) @GruvboxAlabasterDefinition)

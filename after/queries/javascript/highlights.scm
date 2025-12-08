@@ -2,6 +2,6 @@
 ;; extends
 
 (function_declaration
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 
-(undefined) @AlabasterConstant
+(undefined) @GruvboxAlabasterConstant

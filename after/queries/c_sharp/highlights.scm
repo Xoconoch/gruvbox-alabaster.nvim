@@ -2,14 +2,14 @@
 ;; extends
 
 (type_declaration
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 (constructor_declaration
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 (destructor_declaration
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 (method_declaration
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 (property_declaration
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 (namespace_declaration
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)

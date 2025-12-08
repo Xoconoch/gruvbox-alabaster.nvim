@@ -2,7 +2,7 @@
 ;; extends
 
 (function_declaration
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 
 (type_declaration
-  (identifier) @AlabasterDefinition)
+  (identifier) @GruvboxAlabasterDefinition)

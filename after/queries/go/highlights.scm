@@ -2,14 +2,14 @@
 ;; extends
 
 (package_clause
-  (package_identifier) @AlabasterDefinition)
+  (package_identifier) @GruvboxAlabasterDefinition)
 
 (const_declaration
   (const_spec
-    name: (identifier) @AlabasterDefinition))
+    name: (identifier) @GruvboxAlabasterDefinition))
 
 (function_declaration
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 
 (method_declaration
-  name: (field_identifier) @AlabasterDefinition)
+  name: (field_identifier) @GruvboxAlabasterDefinition)

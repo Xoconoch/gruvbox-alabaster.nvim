@@ -2,52 +2,52 @@
 ;; extends
 
 (struct_item
-  name: (type_identifier) @AlabasterDefinition)
+  name: (type_identifier) @GruvboxAlabasterDefinition)
 (enum_item
-  name: (type_identifier) @AlabasterDefinition)
+  name: (type_identifier) @GruvboxAlabasterDefinition)
 
 (impl_item
-  type: (type_identifier) @AlabasterDefinition)
+  type: (type_identifier) @GruvboxAlabasterDefinition)
 
 (impl_item
   type: (scoped_type_identifier
           path: (scoped_identifier)
-          name: (type_identifier) @AlabasterDefinition))
+          name: (type_identifier) @GruvboxAlabasterDefinition))
 
 (impl_item
   body: (declaration_list
           (type_item
-            name: (type_identifier) @AlabasterDefinition)))
+            name: (type_identifier) @GruvboxAlabasterDefinition)))
 (impl_item
   type: (generic_type
-          type: (type_identifier) @AlabasterDefinition))
+          type: (type_identifier) @GruvboxAlabasterDefinition))
 
 (trait_item
-  name: (type_identifier) @AlabasterDefinition)
+  name: (type_identifier) @GruvboxAlabasterDefinition)
 
 (trait_item
   body: (declaration_list
           (associated_type
-            name: (type_identifier) @AlabasterDefinition)))
+            name: (type_identifier) @GruvboxAlabasterDefinition)))
 
 (trait_item
   body: (declaration_list
           (function_signature_item
-            name: (identifier) @AlabasterDefinition)))
+            name: (identifier) @GruvboxAlabasterDefinition)))
 
 (function_item
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 
 (macro_definition
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 
 (for_expression
-  "in" @AlabasterPunctuation)
+  "in" @GruvboxAlabasterPunctuation)
 (type_arguments
-  "<" @AlabasterPunctuation)
+  "<" @GruvboxAlabasterPunctuation)
 (type_arguments
-  ">" @AlabasterPunctuation)
+  ">" @GruvboxAlabasterPunctuation)
 (type_parameters
-  "<" @AlabasterPunctuation)
+  "<" @GruvboxAlabasterPunctuation)
 (type_parameters
-  ">" @AlabasterPunctuation)
+  ">" @GruvboxAlabasterPunctuation)

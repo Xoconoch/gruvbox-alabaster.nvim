@@ -2,22 +2,22 @@
 ;; extends
 
 ; (fn
-;   name: (symbol) @AlabasterDefinition)
+;   name: (symbol) @GruvboxAlabasterDefinition)
 ;   ; TODO: add this when https://github.com/nvim-treesitter/nvim-treesitter/issues/1788 is fixed
-;   ; docstring: (string)? @AlabasterComment
+;   ; docstring: (string)? @GruvboxAlabasterComment
 ; (fn
-;   name: (multi_symbol (symbol) @AlabasterDefinition))
+;   name: (multi_symbol (symbol) @GruvboxAlabasterDefinition))
 
 ; (global
 ;   (binding
-;     (symbol) @AlabasterDefinition))
+;     (symbol) @GruvboxAlabasterDefinition))
 
 (list
   (symbol) @function.macro
   (#match? @function.macro "^macro$")
-  (symbol) @AlabasterDefinition)
+  (symbol) @GruvboxAlabasterDefinition)
 
 
-; ((program . (hashfn) @AlabasterHashbang)
-;  (#match? @AlabasterHashbang "^#!/")
+; ((program . (hashfn) @GruvboxAlabasterHashbang)
+;  (#match? @GruvboxAlabasterHashbang "^#!/")
 ;  (#set! "priority" 101))

@@ -2,19 +2,19 @@
 ;; extends
 
 (interface_declaration
-  name: (type_identifier) @AlabasterDefinition)
+  name: (type_identifier) @GruvboxAlabasterDefinition)
 
 (method_definition
-  name: (property_identifier) @AlabasterDefinition)
+  name: (property_identifier) @GruvboxAlabasterDefinition)
 
 (function_declaration
-  name: (identifier) @AlabasterDefinition)
+  name: (identifier) @GruvboxAlabasterDefinition)
 
 (variable_declarator
-  name: (identifier) @AlabasterDefinition
+  name: (identifier) @GruvboxAlabasterDefinition
   value: (arrow_function))
 
 (type_alias_declaration
-  name: (type_identifier) @AlabasterDefinition)
+  name: (type_identifier) @GruvboxAlabasterDefinition)
 
-(undefined) @AlabasterConstant
+(undefined) @GruvboxAlabasterConstant

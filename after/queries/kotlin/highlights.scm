@@ -1,24 +1,24 @@
 ;; vim: ft=query
 ;; extends
 (function_declaration
-  (simple_identifier) @AlabasterDefinition)
+  (simple_identifier) @GruvboxAlabasterDefinition)
 
 (class_declaration
-  (type_identifier) @AlabasterDefinition)
+  (type_identifier) @GruvboxAlabasterDefinition)
 
 (object_declaration
-  (type_identifier) @AlabasterDefinition)
+  (type_identifier) @GruvboxAlabasterDefinition)
 
-(string_literal) @AlabasterString
+(string_literal) @GruvboxAlabasterString
 
-(boolean_literal) @AlabasterConstant
-(integer_literal) @AlabasterConstant
-(long_literal) @AlabasterConstant
-(unsigned_literal) @AlabasterConstant
-(real_literal) @AlabasterConstant
+(boolean_literal) @GruvboxAlabasterConstant
+(integer_literal) @GruvboxAlabasterConstant
+(long_literal) @GruvboxAlabasterConstant
+(unsigned_literal) @GruvboxAlabasterConstant
+(real_literal) @GruvboxAlabasterConstant
 
-(line_comment) @AlabasterHashbang
+(line_comment) @GruvboxAlabasterHashbang
 (multiline_comment) @Comment
 
 
-(modifiers (annotation (user_type (type_identifier) @AlabasterPunctuation)))
+(modifiers (annotation (user_type (type_identifier) @GruvboxAlabasterPunctuation)))
