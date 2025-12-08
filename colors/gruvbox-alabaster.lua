@@ -381,12 +381,12 @@ if vim.o.background == "dark" then
 		NoiceCmdlinePopupBorderSearch = { link = "GruvboxAlabasterYellow" },
 		NoiceCmdlineIconSearch = { link = "GruvboxAlabasterYellow" },
 		-- Ministatusline
-		MiniStatuslineModeNormal = { fg = #282828, bg = "#ebdbb2", bold = 1, nocombine = true },
-		MiniStatuslineModeCommand = { fg = #282828, bg = "#fabd2f", bold = 1, nocombine = true },
-		MiniStatuslineModeReplace = { fg = #282828, bg = "#fb4934", bold = 1, nocombine = true },
-		MiniStatuslineModeInsert = { fg = #282828, bg = "#83a598", bold = 1, nocombine = true },
-		MiniStatuslineModeVisual = { fg = #282828, bg = "#b8bb26", bold = 1, nocombine = true },
-		MiniStatuslineModeOther = { fg = #282828, bg = "#8ec07c", bold = 1, nocombine = true },
+		MiniStatuslineModeNormal = { fg = #282828, bg = "#ebdbb2", nocombine = true },
+		MiniStatuslineModeCommand = { fg = #282828, bg = "#fabd2f", nocombine = true },
+		MiniStatuslineModeReplace = { fg = #282828, bg = "#fb4934", nocombine = true },
+		MiniStatuslineModeInsert = { fg = #282828, bg = "#83a598", nocombine = true },
+		MiniStatuslineModeVisual = { fg = #282828, bg = "#b8bb26", nocombine = true },
+		MiniStatuslineModeOther = { fg = #282828, bg = "#8ec07c", nocombine = true },
 		-- Languages
 		--- asm
 		asmDirective = { fg = dim_comment },
