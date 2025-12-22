@@ -31,3 +31,10 @@
   "]"
 ] @punctuation.bracket
 
+(named_imports
+  "{" @GruvboxAlabasterDelimiter
+  "}" @GruvboxAlabasterDelimiter)
+
+(object
+  "{" @GruvboxAlabasterDelimiter
+  "}" @GruvboxAlabasterDelimiter)
