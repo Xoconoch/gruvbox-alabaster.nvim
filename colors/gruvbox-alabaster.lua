@@ -37,9 +37,9 @@ if vim.o.background == "dark" then
   local darker_fg = "#83a598"
   local diffadd = "#689d6a"
   local diffdelete = "#fb4934"
-  local diffchange = "#d65d0e"
+  local diffchange = "#fabd2f"
   local statusline = "#504945"
-  local comment = "#fabd2f"
+  local comment = "#d65d0e"
   local dim_comment = "#665c54"
   local mistake = {
     fg = "#cc241d",
@@ -133,7 +133,7 @@ if vim.o.background == "dark" then
     Constant = { fg = const_fg },
     String = { fg = string_fg },
     Character = { fg = const_fg },
-    Number = { fg = const_fg },
+    Number = { fg = string_fg },
     Boolean = { fg = const_fg },
     Float = { fg = const_fg },
     Operator = { fg = punct_fg },
