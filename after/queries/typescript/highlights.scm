@@ -18,3 +18,16 @@
   name: (type_identifier) @GruvboxAlabasterDefinition)
 
 (undefined) @GruvboxAlabasterConstant
+
+[
+  "{" 
+  "}"
+] @punctuation.bracket
+
+[
+  "(" 
+  ")" 
+  "[" 
+  "]"
+] @punctuation.bracket
+

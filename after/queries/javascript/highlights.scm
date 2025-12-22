@@ -5,3 +5,16 @@
   name: (identifier) @GruvboxAlabasterDefinition)
 
 (undefined) @GruvboxAlabasterConstant
+[
+  "{" 
+  "}"
+] @punctuation.bracket
+
+[
+  "(" 
+  ")" 
+  "[" 
+  "]"
+] @punctuation.bracket
+
+
