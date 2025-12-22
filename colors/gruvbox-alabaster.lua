@@ -157,7 +157,7 @@ if vim.o.background == "dark" then
     Structure = { fg = def_fg },
     Typedef = { fg = def_fg },
 
-    Special = { fg = ansi.yellow },
+    Special = { fg = ansi.white },
     -- TODO better color than diffchange, try reddish
     -- SpecialChar = { fg = diffchange }, --  special character in a constant
     -- Tag            { }, --    you can use CTRL-] on this
